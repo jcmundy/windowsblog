@@ -1,4 +1,4 @@
-permalink: /:year:month:day/:title
+permalink: /windowsblog/:year:month:day/:title
 url:  https://jcmundy.github.io
 baseurl: /windowsblog
 
