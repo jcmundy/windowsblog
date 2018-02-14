@@ -1,10 +1,10 @@
 permalink: /:year:month:day/:title
-url: #Your url here
+url:  https://jcmundy.github.io/
 baseurl: /project
 
 # variables
-name: Your Site Name
-description: Your description here
+name: Digital Scholarship Blog
+description: This blog discusses digital scholarship.
 google_verification: null
 
 
