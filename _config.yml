@@ -1,6 +1,6 @@
 permalink: /windowsblog/:year:month:day/:title
 url:  
-baseurl: /windowsblog
+baseurl: 
 
 # variables
 name: Digital Scholarship Blog
