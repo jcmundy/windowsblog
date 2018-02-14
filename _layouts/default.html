@@ -31,11 +31,11 @@
 		{% include topbar.html %}
 		<div class="tag_list">
 			<ul id="tag-list">
-				<li><a href="/" ><img src="/windowsblog/assets/img/disk.png" />(C:)</a>
+				<li><a href="/windowsblog/" ><img src="/windowsblog/assets/img/disk.png" />(C:)</a>
 			<ul>
 				{% assign tags = site.tags | sort %}
 				{% for tag in tags %}
-				<li><a href="/tag/{{ tag | first | slugify }}/" title="{{ tag[0] | replace:'-', ' ' }}"><img src="/windowsblog/assets/img/folder.ico" />{{ tag[0] | replace:'-', ' ' }}</a></li>
+				<li><a href="/windowsblog/tag/{{ tag | first | slugify }}/" title="{{ tag[0] | replace:'-', ' ' }}"><img src="/windowsblog/assets/img/folder.ico" />{{ tag[0] | replace:'-', ' ' }}</a></li>
 				{% endfor %}
 			</ul>
 				</li>
@@ -46,7 +46,7 @@
 				{% if page.title == 'me' or page.title == '404...' %}
 					<ul>
 						{% for post in site.posts %}
-						<li><a href="{{  post.url }}" title="{{ post.title }}"><img src="/windowsblog/assets/img/file.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
+						<li><a href="/windowsblog/{{  post.url }}" title="{{ post.title }}"><img src="/windowsblog/assets/img/file.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
 						{% endfor %}
 					</ul>
 				{% else %}
@@ -55,7 +55,7 @@
 			{% else %}
 				<ul>
 					{% for post in site.posts %}
-					<li><a href="{{  post.url }}" title="{{ post.title }}"><img src="/windowsblog/assets/img/file.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
+					<li><a href="/windowsblog/{{  post.url }}" title="{{ post.title }}"><img src="/windowsblog/assets/img/file.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
 					{% endfor %}
 				</ul>
 			{% endunless %}
