@@ -1,11 +1,8 @@
-tag1:
-  name: tag1
+webdesign:
+  name: webdesign
 
-tag2:
-  name: tag2
+webpages:
+  name: webpages
 
-tag3:
-  name: tag3
-
-tag4:
-  name: tag4
+Latin:
+  name: Latin
