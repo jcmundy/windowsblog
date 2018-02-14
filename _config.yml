@@ -1,6 +1,6 @@
 permalink: /:year:month:day/:title
-url:  https://jcmundy.github.io/
-baseurl: /project
+url:  https://jcmundy.github.io
+baseurl: /windowsblog
 
 # variables
 name: Digital Scholarship Blog
