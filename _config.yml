@@ -15,7 +15,7 @@ exclude: ["README.md", "LICENSE"]
 # Sass
 sass:
   style: :compressed
-  sass_dir: /windowsblog/_sass
+  sass_dir: _sass
 
 # Markdown
 markdown: kramdown
